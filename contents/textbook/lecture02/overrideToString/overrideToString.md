@@ -59,7 +59,7 @@ boolean equals(Object obj) {
         return Math.abs(this.x - p.x) < 1E-15 &&
             Math.abs(this.y - p.y) < 1E-15;
     } else {
-        return False;
+        return false;
     }
 }
 ````
